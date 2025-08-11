@@ -1,6 +1,24 @@
 # JoyCon++
 
-An open-source C++ library for interfacing with Nintendo Switch Joy-Con controllers (Joy-Con 1 and Joy-Con 2) on Windows.
+An open-source C++ library for interfacing with Nintendo Switch Joy-Con controllers (Joy-Con 1 and Joy-Con 2) on Windows, Linux and MacOS (Apple Silicon & Intel Macs)
+
+---
+
+# DISCLAIMER
+
+This repo is a fork to remade the whole thing all the way up using others api than the proprietary one from Microsoft on Windows that is Useless on Linux and Mac as the same way they don't have any driver for, maybe it would work fine under wine or many patches/fixes, but certainly don't want those, so why don't we reco from the begining the whole thing just use the [https://github.com/libusb/hidapi](hidapi universal library) instead of the WinAPI HID one ?
+
+Q&A :
+- So, this fork is now alive, but does it works ?
+  - No it doesn't work at this moment, I'm alone on this project, I doesn't have that much time to code on it and I never code a real working software that is usefull other than little games, you can see me like a lil'baby in code ;)
+
+- Can I contribute to that project ? And How ?
+  - Hey, Welcome buddy, no matter the thing you want to had, if it's a fix for a Platform you have, a request like 'help it keeps crashing' or anything else, no worries it's ok we're all here to try our best in contributing on this project, if you're a professional writer in C++ or else and you want to add some, do it so, you're so much welcome, for the other who's just passing by or simply to test it on your own hardware/os, you're welcome too !
+
+- When could we see a working/stable release of it ?
+  -  Hmm, I don't know when or how it would work if we ever make a working release. I honestly fork the project just because I'm frustrated to see that much of people who don't care about their software, how does it work or is my data is protected, yes I agree I only want to install software that runs and do what it was built for, currently Joycon++ (JoyconPlusPlus) is working on Windows, rewriting the whole thing that works with Microsoft Proprietary Api's to a universal Api isn't something that sound easy, and it never have to be easy, I can't tell you when it would work, but there's a high change that in a near future in some months (maybe week if it's not that much difficult) that a Alpha or Beta release of it see the bright light of days on earth. Stay tuned.
+
+> This is the end of the disclaimer, the rest of the README.md at this point stay untouched for the moment, if it needs some edits for specific hardware or os, I'll do.
 
 ---
 
