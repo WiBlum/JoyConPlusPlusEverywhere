@@ -6,7 +6,7 @@ An open-source C++ library for interfacing with Nintendo Switch Joy-Con controll
 
 # DISCLAIMER
 
-This repo is a fork to remade the whole thing all the way up using others api than the proprietary one from Microsoft on Windows that is Useless on Linux and Mac as the same way they don't have any driver for, maybe it would work fine under wine or many patches/fixes, but certainly don't want those, so why don't we reco from the begining the whole thing just use the [https://github.com/libusb/hidapi](hidapi universal library) instead of the WinAPI HID one ?
+This repo is a fork to remade the whole thing all the way up using others api than the proprietary one from Microsoft on Windows that is Useless on Linux and Mac as the same way they don't have any driver for, maybe it would work fine under wine or many patches/fixes, but certainly don't want those, so why don't we reco from the begining the whole thing just use the [hidapi universal library](https://github.com/libusb/hidapi) instead of the WinAPI HID one ?
 
 Q&A :
 - So, this fork is now alive, but does it works ?
